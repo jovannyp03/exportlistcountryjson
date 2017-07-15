@@ -51,5 +51,5 @@ print json_encode($rows);
 $fp = fopen('results.json', 'w');
 fwrite($fp, json_encode($rows));
 fclose($fp);
-//
+
 ?>
